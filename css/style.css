@@ -1,0 +1,84 @@
+@import url('reset.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+:root {
+
+}
+
+header {
+    height: 90px;
+    outline: 1px solid red;
+}
+
+#main-banner {
+    height: 460px;
+    background: #d9d9d9;
+}
+
+#section01 {
+    height: 620px;
+    margin-top: 80px;
+    outline: 1px solid red;
+}
+
+#section02 {
+    height: 400px;
+    margin-top: 80px;
+    outline: 1px solid red;
+}
+
+#main-footer {
+     width: 1440px;
+     height: 160px;
+     margin-top: 50px;
+     background: #F2F3F4;
+     outline: 1px solid red;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+
+#main-footer img {
+    margin-left: 30px;
+    margin-top: 26px;
+}
+
+#main-footer .footer-menu {
+    /* outline: 1px solid green; */
+    width: 747px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#main-footer div {
+    margin-right: 30px;
+}
+
+#main-footer .family-site {
+    /* outline: 1px solid green; */
+    margin-top: 45px;
+    margin-right: 0px;
+    width: 162px;
+}
+
+#main-footer .family-site #siteList {
+    width: 162px;
+    height: 28px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #666;
+}
+
+#main-footer .sns-link {
+    width: 162px;
+    height: 42px;
+    /* outline: 1px solid pink; */
+    display: flex;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+#main-footer .sns-link a {
+    color: #666;
+}
